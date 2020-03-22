@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="fonts.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300i|Montserrat:300,400|Roboto&display=swap" rel="stylesheet">
+
+	<!-- 
+		 font-family: 'Roboto', sans-serif;
+		 font-family: 'Merriweather', serif;
+		 font-family: 'Montserrat', sans-serif;
+		 font-family: 'HelveticaLT', sans-serif;
+		 font-family: 'HelveticaMD', sans-serif;
+		 font-family: 'HelveticaRoman', sans-serif; 
+	-->
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> <!-- scroll -->
+
+	<script src="script.js" defer></script>
+	<script>//livereload
+		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>') 
+	</script>
+
+	<title>B&W</title>
+</head>
+<body>
+
+<!-- Header -->	
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<nav class="nav">
+					<a href="#" class="nav__link nav__link_active">Home</a>
+					<a href=".about" class="nav__link">About Us</a>
+					<a href=".team" class="nav__link">Team</a>
+				</nav>	
+
+				<a href="#"><img class="logo" src="img/header_logo.png" alt="logo"></a>
+				
+				<nav class="nav">
+					<a href=".services" class="nav__link">Services</a>
+					<a href=".bg__text" class="nav__link">Blog</a>
+					<a href=".contact" class="nav__link">Contact Us</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+<!-- Intro -->
+	<section class="intro">
+
+			<div class="intro__inner">
+				<h1 class="intro__title">We build it with passion</h1>
+				<h4 class="intro__subtitle">Just to be clear, we do this for fun not for you, just kidding.</h4>
+				<a href=".services"><button type="button" class="btn">Read More</button></a>
+			</div>
+
+			<a class="go_down_icon" href=".about">
+					<img id="eclipse1" src="img/go_down_icon.png" alt="Go down">
+					<img id="eclipse2" src="img/go_down_icon.png" alt="Go down">
+					<img id="eclipse3" src="img/go_down_icon.png" alt="Go down">
+			</a>
+	</section>
+
+<!-- About -->
+	<section class="about">
+		<div class="container">
+				<div class="about__main_line"></div>
+				
+				<div class="about__marks">
+					<div class="mark" id="mark1" tabindex="0"></div>
+					<div class="mark" id="mark2" tabindex="0" onmousedown="ViewDiv()"></div>
+					<div class="mark" id="mark3" tabindex="0" onmousedown="ViewDiv()"></div>
+					<div class="mark" id="mark4" tabindex="0" onmousedown="ViewDiv()"></div>
+				</div>
+
+				<aside id="year__2011">
+					<h3 class="year__title">2011</h3>
+					<h4 class="year__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quia repellendus quos incidunt perferendis.</h4>
+				</aside>
+
+				<aside class="year" id="year__2012">
+					<h3 class="year__title lefted__title">2012</h3>
+					<h4 class="year__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quia repellendus quos incidunt perferendis.</h4>
+				</aside>
+
+				<aside class="year" id="year__2013">
+					<h3 class="year__title">2013</h3>
+					<h4 class="year__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quia repellendus quos incidunt perferendis quia dolor illo.</h4>
+				</aside>
+
+				<aside class="year" id="year__2014">
+					<h3 class="year__title lefted__title">2014</h3>
+					<h4 class="year__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quia dolor illo quo nam perferendis laborum numquam!</h4>
+				</aside>
+			
+				<div class="city__bg">
+					<img class="black_city"	src="img/city/black_city.png" alt="">
+					<img src="img/city/white_city.png" alt="">
+				</div>
+		</div>	<!-- container -->	
+	</section>
+
+<!-- Team -->
+	<section class="team">
+		<div class="container">
+			<div class="team__inner">
+				
+				<header class="header_of_team">
+					<h2 class="team__title">This is our team</h2>
+					<h4 class="intro__subtitle">We are small but effective and ...</h4>
+				</header>
+
+				<article class="team__block">
+
+					<div class="teamates LowerTeamate">
+						<img src="img/team/teamate1.png" alt="">
+						<div class="teamates__name">Mark Once</div>
+						<div class="teamates__role">Designer & Front-End Developer</div>
+						<div class="teamates__social">
+							<a href="##" id="twitter__icon"><img src="img/team/social/twitter.png" alt="Twitter"></a>
+							<a href="##"><img src="img/team/social/inst.png" alt="Instagram"></a>
+						</div>
+					</div>
+
+					<div class="teamates">
+						<img src="img/team/teamate2.png" alt="">
+						<div class="teamates__name">Justin Twice</div>
+						<div class="teamates__role">Founder & CEO</div>
+						<div class="teamates__social">
+							<a href="##" id="twitter__icon"><img src="img/team/social/twitter.png" alt="Twitter"></a>
+							<a href="##"><img src="img/team/social/inst.png" alt="Instagram"></a>
+						</div>
+					</div>
+
+					<div class="teamates LowerTeamate">
+						<img src="img/team/teamate3.png" alt="">
+						<div class="teamates__name">Antonio Never</div>
+						<div class="teamates__role">Someone & Somewhere</div>
+						<div class="teamates__social">
+							<a href="##" id="twitter__icon"><img src="img/team/social/twitter.png" alt="Twitter"></a>
+							<a href="##"><img src="img/team/social/inst.png" alt="Instagram"></a>
+						</div>
+					</div>
+				</article>
+
+			</div><!-- team__inner -->
+		</div><!-- container -->
+	</section>
+
+<!-- Services -->
+	<section class="services">
+		<div class="parallelogram">
+					
+			<div class="container" id="services__container">
+				<header class="services__header">
+					<h2 class="services__title">We provide you everything</h2>
+					<h4 class="services__subtitle">Maybe not everything, but we provide you some stuff.</h4>
+				</header>
+
+				<div class="features">
+					<div class="features__item">
+						<img class="features__logo" src="img/features/features1.png" alt="">
+						<div class="features__title">Some Analytics</div>
+						<div class="features__subtitle">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</div>
+					</div><!-- features__item -->
+
+					<div class="features__item">
+						<img class="features__logo" src="img/features/features2.png" alt="">
+						<div class="features__title">We provide you love</div>
+						<div class="features__subtitle">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</div>
+					</div><!-- features__item -->
+
+					<div class="features__item">
+						<img class="features__logo" src="img/features/features3.png" alt="">
+						<div class="features__title">And Some Cloud</div>
+						<div class="features__subtitle">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</div>
+					</div><!-- features__item -->
+
+				</div><!-- features -->
+
+				<div class="bg__text">
+					<a href="##"><button class="btn services__button" type="button">VISiT OUR BLOG</button></a>
+				</div><!-- bg__text -->
+			</div><!-- container -->
+
+		</div><!-- parallelogram -->
+	</section>
+
+<!-- Contact -->
+	<section class="contact">
+		<div class="container">
+			<div class="contact__inner">
+				
+				<header class="contact__header">
+					<h2 class="contact__title">Contact Us</h2>
+					<h4 class="contact__subtitle">We know what we need to do</h4>
+				</header>
+
+				<div class="features">
+					<div class="features__item">
+						<img class="contact__feature_icon" src="img/features/contact_features/contact-feature1.png" alt="Phone icon">
+						<div class="contact__features_text">555-222-333</div>
+					</div><!-- features__item -->
+					
+					<div class="features__item">
+						<img class="contact__feature_icon" src="img/features/contact_features/contact-feature2.png" alt="Phone icon">
+						<div class="contact__features_text">Here is some address</div>
+					</div><!-- features__item -->
+
+					<div class="features__item">
+						<img class="contact__feature_icon" src="img/features/contact_features/contact-feature3.png" alt="Phone icon">
+						<div class="contact__features_text">somemail@hotmail.com</div>
+					</div><!-- features__item -->
+				</div><!-- features -->
+
+				<form class="form">
+					<input class="textbox" type="name" placeholder="Full name">
+					<input class="textbox" type="email" placeholder="Email">
+					<input class="textbox" type="tel" placeholder="Number">
+					<input class="textbox textarea" type="message" placeholder="Write your Message here..."><br>
+					<a href="##"><button class="btn submit__btn" type="button">Submit</button></a>
+				</form>
+
+			</div><!-- contact__inner -->
+		</div><!-- container -->
+	</section>
+
+<!-- Copyright -->
+	<footer class="footer">
+		<div class="container">
+			<div class="copyright">Copyright © Suren Khachatryan. All rights reserved.</div>
+		</div>
+	</footer>
+
+<!-- Up -->
+	<div class="btnUp">
+		<a class="topNubex" href=".header" title="Up">
+			<img src="img/Up.png" width="40px" height="40px">
+		</a>
+	</div>
+
+
+</body>
+</html>

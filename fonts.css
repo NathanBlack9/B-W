@@ -1,0 +1,14 @@
+@font-face{
+	font-family: 'HelveticaLT';
+	src: url("fonts/HelveticaNeueLTProLt.otf")
+}
+
+@font-face{
+	font-family: 'HelveticaMD';
+	src: url("fonts/HelveticaNeueLTProMd.otf")
+}
+
+@font-face{
+	font-family: 'HelveticaRoman';
+	src: url("fonts/HelveticaNeueLTProRoman.otf")
+}
